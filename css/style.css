@@ -8,8 +8,47 @@ body{
 }
 
 .main-container{
+    position: relative;
     height:800px;
     width: 800px;
     border:2px solid var(--light-color);
     margin:0 auto;
+    color:var(--light-color);
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+}
+h1{
+    position: absolute;
+    display: inline-block;
+    margin:0;
+    bottom: 5%;
+    left: 17%;
+
+    
+}
+.cloud{
+    position: absolute;
+}
+.mountain{
+    position: absolute;
+    bottom:20%;
+    left: 12%;
+}
+.cloud1{
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    top: 25%;
+}
+.cloud2{
+    position: absolute;
+    display: inline-block;
+    left: 45%;
+    top:10%;
+}
+.cloud3{
+    position: absolute;
+    display: inline-block;
+    left:5%;
+    top: 30%;
 }
